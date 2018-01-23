@@ -21,7 +21,7 @@ defmodule K8sTrafficPlug.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:plug, "~> 1.4"},
+      {:plug, "~> 1.3"},
       {:credo, "~> 0.5", only: [:dev, :test]},
       {:ex_doc, "~> 0.14", only: :dev, runtime: false},
       {:dialyxir, "~> 0.5", only: [:dev], runtime: false}
